@@ -1,0 +1,11 @@
+# Distribution / packages
+env/
+build/
+dist/
+
+### Django ###
+__pycache__
+local_settings.py
+
+## VSCODE settings
+.vscode
