@@ -9,3 +9,6 @@ local_settings.py
 
 ## VSCODE settings
 .vscode
+
+## Database
+db.sqlite3
