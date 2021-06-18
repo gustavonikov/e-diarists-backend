@@ -12,8 +12,7 @@ class Diarist(models.Model):
     neighborhood = models.CharField(max_length=30, null=False, blank=False)
     complement = models.CharField(max_length=100, null=False, blank=True)
     postal_code = models.CharField(max_length=8, null=False, blank=False)
+    city = models.CharField(max_length=30, null=False, blank=True)
     state = models.CharField(max_length=2, null=False, blank=False)
     ibge_code = models.IntegerField(null=False, blank=False)
     user_photo = models.ImageField(null=False)
-
-    
